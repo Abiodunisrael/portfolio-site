@@ -77,6 +77,31 @@
       margin: 2.5rem 0 1.25rem;
     }
 
+    /* About section */
+    .about {
+      margin-bottom: 1rem;
+      padding: 1.5rem;
+      background: var(--card);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .about h2 {
+      margin: 0 0 1rem;
+    }
+
+    .about p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 0.85rem;
+    }
+
+    .about p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Projects */
     .project {
       margin-bottom: 1.25rem;
       padding: 1.5rem;
@@ -162,58 +187,74 @@
   <div class="container">
     <header>
       <h1>Abiodun Israel</h1>
-      <p class="tagline">Software Developer · PHP, MySQL & JavaScript</p>
+      <p class="tagline">Software Developer · PHP, MySQL &amp; JavaScript</p>
     </header>
 
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        I'm a software developer based in Nigeria, focused on building full-stack
+        web applications with PHP and MySQL. I enjoy solving practical problems;
+        from license renewal workflows for nurses to property listings for real
+        estate agencies, and I care about clean code, security, and responsive
+        design.
+      </p>
+      <p>
+        Currently open to junior developer roles, freelance work, or collaborative
+        projects where I can keep shipping real things.
+      </p>
+    </section>
+
     <section>
-  <h2>Projects</h2>
+      <h2>Projects</h2>
 
-  <div class="project">
-    <h3>KUSH &amp; CO</h3>
-    <p>
-      A nurse-led platform for NMCN license renewal assistance and community health
-      outreach in Nigeria. Features a public marketing site, secure admin dashboard,
-      renewal request form, certificate management, and CMS-style content editing —
-      all without a database, using a custom PHP JSON API.
-    </p>
-    <div class="tags">
-      <span class="stack">PHP 8</span>
-      <span class="stack">Vanilla JS</span>
-      <span class="stack">REST API</span>
-      <span class="stack">Session Auth</span>
-      <span class="stack">JSON Storage</span>
-    </div>
-    <a href="https://kushco.site.je" target="_blank" rel="noopener">Live Site</a>
-    <a href="https://github.com/Abiodunisrael/kush-and-co" target="_blank" rel="noopener">Source Code</a>
-  </div>
+      <div class="project">
+        <h3>KUSH &amp; CO</h3>
+        <p>
+          A nurse-led platform for NMCN license renewal assistance and community
+          health outreach in Nigeria. Features a public marketing site, secure
+          admin dashboard, renewal request form, certificate management, and
+          CMS-style content editing — all without a database, using a custom PHP
+          JSON API.
+        </p>
+        <div class="tags">
+          <span class="stack">PHP 8</span>
+          <span class="stack">Vanilla JS</span>
+          <span class="stack">REST API</span>
+          <span class="stack">Session Auth</span>
+          <span class="stack">JSON Storage</span>
+        </div>
+        <a href="https://kushco.site.je" target="_blank" rel="noopener">Live Site</a>
+        <a href="https://github.com/Abiodunisrael/kush-and-co" target="_blank" rel="noopener">Source Code</a>
+      </div>
 
-  <div class="project">
-    <h3>BAA Estates</h3>
-    <p>
-      A full-stack real estate listing platform for houses and lands in Nigeria.
-      Buyers filter by location, type, price range, and keyword; admins manage
-      properties, images, locations, and customer inquiries through a secure
-      dashboard. Built with PHP + MySQL, PDO prepared statements, session auth,
-      and a custom routing front controller.
-    </p>
-    <div class="tags">
-      <span class="stack">PHP 8</span>
-      <span class="stack">MySQL</span>
-      <span class="stack">PDO</span>
-      <span class="stack">REST Routing</span>
-      <span class="stack">Session Auth</span>
-      <span class="stack">File Uploads</span>
-    </div>
-    <a href="https://baaestates.is-great.net/" target="_blank" rel="noopener">Live Site</a>
-    <a href="https://github.com/Abiodunisrael/baa-estates" target="_blank" rel="noopener">Source Code</a>
-  </div>
+      <div class="project">
+        <h3>BAA Estates</h3>
+        <p>
+          A full-stack real estate listing platform for houses and lands in
+          Nigeria. Buyers filter by location, type, price range, and keyword;
+          admins manage properties, images, locations, and customer inquiries
+          through a secure dashboard. Built with PHP + MySQL, PDO prepared
+          statements, session auth, and a custom routing front controller.
+        </p>
+        <div class="tags">
+          <span class="stack">PHP 8</span>
+          <span class="stack">MySQL</span>
+          <span class="stack">PDO</span>
+          <span class="stack">REST Routing</span>
+          <span class="stack">Session Auth</span>
+          <span class="stack">File Uploads</span>
+        </div>
+        <a href="https://baaestates.is-great.net/" target="_blank" rel="noopener">Live Site</a>
+        <a href="https://github.com/Abiodunisrael/baa-estates" target="_blank" rel="noopener">Source Code</a>
+      </div>
 
-</section>
+    </section>
 
     <footer>
       <p>
         Find me on
-        <a href="https://github.com/Abiodunisrael">GitHub</a>
+        <a href="https://github.com/Abiodunisrael">GitHub</a> ·
         <a href="mailto:abiodunisrael770@gmail.com">Email</a>
       </p>
     </footer>
